@@ -2,7 +2,7 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 90%;
-    background: url(images/golf-background.png) no-repeat fixed top center;
+    background: url(img/golf-background.png) no-repeat fixed top center;
 }
 
 .contentWrapper {
@@ -97,9 +97,60 @@ nav#utilityMenu ul li.acctNav::before, nav#utilityMenu ul li input#search::befor
     content: "| ";
     color: #FCFBE6;
 }
+
 .icon {
-    height: 100px;
-    width: 100px;
+    width:1eeeem;
+    height:1em;
+    border-radius: 0.5em;
+}
+
+.clubs {
+    width: auto;
+    height: auto;
+    margin: 5em;
+}
+
+#sidebar {
+    width: 20%;
+    float: right;
+    position: relative;
+    display: block;
+    background-color: white;
+    margin: 1%;
+    padding: 1%;
+    border: 2px solid black;
+}
+
+#store {
+    background-color: white;
+    float: left;
+    width: 60%;
+    display: block;
+    margin: 1%;
+    padding: 1%;
+    border: 2px solid black;
+}
+
+footer {
+    display:inline-block;
+    background-color: lightgrey;
+    width: 60%;
+    border: 2px solid black;
+    margin: 1%;
+    padding: 1%;
+}
+
+footer ul#menuFooter {
+    display:inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+
+footer ul li {
+    display:inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
 }
 /*Header*/
 /*Nav Bars*/
